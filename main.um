@@ -1,0 +1,6 @@
+import ("dynimport.um")
+
+fn main() {
+    module := dynimport::dyninit("example.um")
+    printf("%d", int(dynimport::dyncall("fib40")))
+}

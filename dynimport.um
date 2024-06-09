@@ -1,0 +1,5 @@
+type Umka* = struct { _: ^void }
+
+fn test*(a: int, b: int): int
+fn dyninit*(src: str): Umka
+fn dyncall*(func: str): any
